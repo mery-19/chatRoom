@@ -6,6 +6,11 @@ class ChatUI {
     {
         this.list = list;
     }
+
+    clear()
+    {
+         this.list.innerHTML = '';
+    }
 // generate html template (this is the callback methode that we used in the chatRoom class)
     render(data)
     {
